@@ -564,21 +564,3 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // let b: number[] = [1, 2];
 // let combine = [...a, ...b];
 // console.log(combine);
-class A {
-}
-class B extends A {
-    name;
-    age;
-    city;
-    constructor(name, age, city) {
-        super();
-        this.name = name;
-        this.age = age;
-        this.city = city;
-    }
-    sum(x, y) {
-        return x + y;
-    }
-}
-let obj = new B("salman", 20, "lahore");
-console.log(obj);
