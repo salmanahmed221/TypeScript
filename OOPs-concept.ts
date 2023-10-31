@@ -144,14 +144,16 @@
 
 // Readonly with string literal
 // class A {
-//   readonly name: string = "Hello, how are you ?";
-//   readonly address = "Hno 6 Stno 72";
+//     readonly name: string = "Hello, how are you ?";
+//     readonly address = "Hno 6 Stno 72";
+//     readonly age: "20";
 
-//   constructor() {
-//     this.name = "I am Fine";
-//     this.address = "no";
+//     constructor() {
+//       this.name = "I am Fine";
+//       this.address = "no";
+//       this.age = "30";
+//     }
 //   }
-// }
 
 //  constructor overloading concept in class
 // class B {
@@ -274,7 +276,8 @@
 // console.log(stddata.find("Ahmed"));
 // console.log(stddata.display());
 
-// class A {    class concept having same method or function name
+//  class concept having same method or function name
+// class A {
 //   eat() {
 //     console.log("Eating from A");
 //   }

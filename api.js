@@ -36,14 +36,3 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //   console.log(response);
 // }
 // getdata();
-const url = 'https://simple-books-api.glitch.me/orders';
-async function getBooks() {
-    const res = await fetch(url, {
-        headers: {
-            Authorization: 'Bearer 396143f3e9e4da51072ec6b06984c284b35b2bb560e067841b9c5913ba87cd5b',
-        },
-    });
-    const b = await res.json();
-    console.log(b);
-}
-getBooks();

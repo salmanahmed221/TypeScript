@@ -121,13 +121,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // }
 // Readonly with string literal
 // class A {
-//   readonly name: string = "Hello, how are you ?";
-//   readonly address = "Hno 6 Stno 72";
-//   constructor() {
-//     this.name = "I am Fine";
-//     this.address = "no";
+//     readonly name: string = "Hello, how are you ?";
+//     readonly address = "Hno 6 Stno 72";
+//     readonly age: "20";
+//     constructor() {
+//       this.name = "I am Fine";
+//       this.address = "no";
+//       this.age = "30";
+//     }
 //   }
-// }
 //  constructor overloading concept in class
 // class B {
 //   constructor(x: string, y: number);
@@ -233,3 +235,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // }
 // let obj = new B();
 // obj.eat();
+class A {
+    eat() {
+        console.log("Eating from A");
+    }
+}
+class B extends A {
+    eat() {
+        super.eat();
+        console.log("Eating from B");
+    }
+}
+let obj = new B();
+obj.eat();
