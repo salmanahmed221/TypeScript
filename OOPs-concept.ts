@@ -131,6 +131,32 @@
 //   let mymercedes = new Mercedes("Black", 2022, true);
 //   console.log(mymercedes);
 
+// Data Modifiers in typescript
+// class abc {
+//   a = 10;
+//   private b = 20;
+//   protected x = 45;
+//   show() {
+//     console.log("Hello World");
+//   }
+//   display() {
+//     this.a = 23;
+//     this.b = 34;
+//     this.x = 89;
+//   }
+// }
+// let obj = new abc();
+// obj.show();
+// obj.a = 19;
+// obj.b = 34;
+// obj.x = 88;
+
+// class xyz extends abc {
+//   a = 300;
+//   // b = 800;
+//   x = 90;
+// }
+
 // ReadOnly concept in class  we can change the value only in constructor
 // class A {
 //   readonly name: string = "ali";
